@@ -6,7 +6,7 @@ namespace CalTest
 [TestFixture]
     public class Tests
     {
-        //Rouble
+        //test
         Cal caltest = new Cal();
 
         [Test]
