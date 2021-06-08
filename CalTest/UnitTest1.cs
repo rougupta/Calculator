@@ -12,11 +12,11 @@ namespace CalTest
         [Test]
         public void Addition_of_two_integers()
         {
-            double a = 5, b = 6;//arrange
+            double a = 15, b = 6;//arrange
             caltest.SetFirstNumber(a);//arrange
             caltest.SetSecondNumber(b);//arrange
             double res = caltest.GetAddition(); //act
-            Assert.AreEqual(res, 11); //assert
+            Assert.AreEqual(res, 21); //assert
         }
 
         [Test]
