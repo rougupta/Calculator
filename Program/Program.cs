@@ -210,15 +210,9 @@ namespace Program.cs
                         break;
                 }
 
-
-
                 selection = ValidateMenuSelection();
 
-
-
             }
-
-
 
         }
     }
