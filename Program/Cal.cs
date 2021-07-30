@@ -86,7 +86,7 @@ namespace Program
     {
         try
         {
-            return Math.Round((firstNumber * secondNumber), 2);//mutant created
+            return Math.Round((firstNumber / secondNumber), 2);
         }
         catch (DivideByZeroException)
         {
