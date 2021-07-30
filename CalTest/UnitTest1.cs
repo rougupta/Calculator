@@ -15,7 +15,7 @@ namespace CalTest
             double a = 15, b = 6;//arrange
             caltest.SetFirstNumber(a);//arrange
             caltest.SetSecondNumber(b);//arrange
-            double res = caltest.GetAddition(); //act
+            double res = caltest.GetAddition(); 
             Assert.AreEqual(res, 21); //assert
         }
 
